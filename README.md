@@ -7,7 +7,7 @@ This is a demo website about providing **AI consultancy services**.
 ## 🔍 Explore the Website
 
 Please scroll down for more sections and insights into the services offered.
-Only SUbscribe button is not working
+Only Subscribe button is not working. Get a Quote and Contact us redirects to a google form
 
 ---
 
