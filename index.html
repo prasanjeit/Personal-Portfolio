@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="AI Enterprice Solution." />
+      <meta name="description" content="PB Tech: Expert AI Enterprice Solution." />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <title>PB Tech</title>
+      <!-- 
+         - custom css link
+         -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <!-- 
+         - google font link
+         -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+      <link rel="preload" as="image" href="./assets/images/images2.png">
+   </head>
+   <body id="top">
+      <header class="header" data-header>
+         <div class="container">
+            <a href="#" class="logo">PB Tech</a>
+            <nav class="navbar" data-navbar>
+               <div class="wrapper">
+                  <a href="#" class="logo">PB Tech</a>
+                  <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                     <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                  </button>
+               </div>
+               <ul class="navbar-list">
+                  <li class="navbar-item">
+                     <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                  </li>
+                  <li class="navbar-item">
+                     <a href="#service" class="navbar-link" data-nav-link>Services</a>
+                  </li>
+                  <li class="navbar-item">
+                     <a href="#feature" class="navbar-link" data-nav-link>What Sets Us Apart</a>
+                  </li>
+               </ul>
+            </nav>
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+               <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSwbFtVRL3wmOhNTYcbnqYQ2jUvgnC8sU8Dl-FNaTgiB5XJQ/viewform" class="btn btn-primary has-before has-after">Contact US 👋</a>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+         </div>
+      </header>
+      <main>
+         <article>
+            <section class="section hero" id="home" aria-label="hero">
+               <div class="container">
+                  <div class="hero-content">
+                     <h1 class="h1 hero-title">
+                        High-Quality <span class="has-before">AI-Driven</span> Enterprice Solutions
+                     </h1>
+                     <p class="hero-text">
+                        At PB Tech, we specialize in building best AI solutions for our clients.
+                     </p>
+                     <div class="wrapper">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSwbFtVRL3wmOhNTYcbnqYQ2jUvgnC8sU8Dl-FNaTgiB5XJQ/viewform" class="btn btn-primary has-before has-after">Get A Quote</a>
+                     </div>
+                     <ul class="social-list">
+                        <li>
+                           <a href="https://facebook.com" class="social-link" style="--color: hsl(241, 77%, 63%);">
+                              <ion-icon name="logo-facebook"></ion-icon>
+                              <span class="span">Facebook</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://youtube.com" class="social-link" style="--color: hsl(0, 100%, 50%);">
+                              <ion-icon name="logo-youtube"></ion-icon>
+                              <span class="span">Youtube</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://twitter.com" class="social-link" style="--color: hsl(203, 89%, 53%);">
+                              <ion-icon name="logo-twitter"></ion-icon>
+                              <span class="span">Twitter</span>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <figure class="hero-banner">
+                     <img src="./assets/images/images2.jpg" width="794" height="637" alt="hero banner" class="w-100">
+                  </figure>
+               </div>
+            </section>
+            <section class="section service" id="service" aria-label="service">
+               <div class="container">
+                  <p class="section-subtitle has-before text-center">Our Services</p>
+                  <h2 class="h2 section-title text-center">Maximizing your AI Capability <span class="has-before">with every click.</span></h2>
+                  <ul class="grid-list">
+                     <li>
+                        <div class="service-card" style="--color: 174, 77%, 50%">
+                           <div class="card-icon">
+                              <img src="./assets/images/service-icon-1.png" width="30" height="30" loading="lazy"
+                                 alt="service icon">
+                           </div>
+                           <h3 class="h3">
+                              <a href="#" class="card-title" data-bs-toggle="modal" data-bs-target="#aiEmailModal">AI Email Assistance</a>
+                           </h3>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="service-card" style="--color: 267, 76%, 57%">
+                           <div class="card-icon">
+                              <img src="./assets/images/service-icon-2.png" width="30" height="30" loading="lazy"
+                                 alt="service icon">
+                           </div>
+                           <h3 class="h3">
+                              <a href="#" class="card-title" data-bs-toggle="modal" data-bs-target="#aiCodeModal">AI Code Development</a>
+                           </h3>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="service-card" style="--color: 17, 100%, 68%">
+                           <div class="card-icon">
+                              <img src="./assets/images/service-icon-3.png" width="30" height="30" loading="lazy"
+                                 alt="service icon">
+                           </div>
+                           <h3 class="h3">
+                              <a href="#" class="card-title" data-bs-toggle="modal" data-bs-target="#aiSupportModal">AI Customer Support</a>
+                           </h3>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="service-card" style="--color: 343, 98%, 60%">
+                           <div class="card-icon">
+                              <img src="./assets/images/service-icon-4.png" width="30" height="30" loading="lazy"
+                                 alt="service icon">
+                           </div>
+                           <h3 class="h3">
+                              <a href="#" class="card-title" data-bs-toggle="modal" data-bs-target="#aiNotifModal">AI Service Notifications</a>
+                           </h3>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="service-card" style="--color: 210, 100%, 53%">
+                           <div class="card-icon">
+                              <img src="./assets/images/service-icon-5.png" width="30" height="30" loading="lazy"
+                                 alt="service icon">
+                           </div>
+                           <h3 class="h3">
+                              <a href="#" class="card-title" data-bs-toggle="modal" data-bs-target="#aiDocModal">AI Document Insights</a>
+                           </h3>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="service-card" style="--color: 157, 89%, 44%">
+                           <div class="card-icon">
+                              <img src="./assets/images/service-icon-6.png" width="30" height="30" loading="lazy"
+                                 alt="service icon">
+                           </div>
+                           <h3 class="h3">
+                              <a href="#" class="card-title" data-bs-toggle="modal" data-bs-target="#aiReportsModal">Analytic Performance Reports</a>
+                           </h3>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="service-card" style="--color: 52, 98%, 50%">
+                           <div class="card-icon">
+                              <img src="./assets/images/service-icon-7.png" width="30" height="30" loading="lazy"
+                                 alt="service icon">
+                           </div>
+                           <h3 class="h3">
+                              <a href="#" class="card-title" data-bs-toggle="modal" data-bs-target="#aiSecurityModal">AI Security Analysis</a>
+                           </h3>
+                        </div>
+                     </li>
+                     <li>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSwbFtVRL3wmOhNTYcbnqYQ2jUvgnC8sU8Dl-FNaTgiB5XJQ/viewform" class="link-card" style="--color: 203, 97%, 75%">
+                           <span class="span">Know More</span>
+                           <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </section>
+            <section class="section feature" id="feature" aria-label="feature">
+               <div class="container">
+                  <figure class="feature-banner">
+                     <img src="./assets/images/images1.png" width="582" height="585" loading="lazy" alt="feature banner"
+                        class="w-100">
+                     <img src="./assets/images/images4.png" width="794" height="400" alt="secondary banner" class="w-100">
+                  </figure>
+                  <div class="feature-content">
+                     <p class="section-subtitle has-before">What Sets Us Apart</p>
+                     <h2 class="h2 section-title">
+                        Specialists in AI Solutions <span class="has-before">Maximum-impact.</span>
+                     </h2>
+                     <ul class="feature-list">
+                        <li>
+                           <div class="feature-card">
+                              <div class="card-icon" style="--color: 174, 77%, 50%">
+                                 <ion-icon name="rocket-sharp" aria-hidden="true"></ion-icon>
+                              </div>
+                              <div>
+                                 <h3 class="h3 card-title">Latest Model</h3>
+                                 <p class="card-text">
+                                    We use the latest AI Models
+                                 </p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="feature-card">
+                              <div class="card-icon" style="--color: 241, 77%, 63%;">
+                                 <ion-icon name="people-sharp" aria-hidden="true"></ion-icon>
+                              </div>
+                              <div>
+                                 <h3 class="h3 card-title">Expert Team</h3>
+                                 <p class="card-text">
+                                    We have the most experienced AI professionals.
+                                 </p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="feature-card">
+                              <div class="card-icon" style="--color: 343, 98%, 60%;">
+                                 <ion-icon name="headset-sharp" aria-hidden="true"></ion-icon>
+                              </div>
+                              <div>
+                                 <h3 class="h3 card-title">Personalized Care</h3>
+                                 <p class="card-text">
+                                    All Business needs are different, We present perosnalized care and solutions
+                                 </p>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </section>
+            <section class="section newsletter has-bg-image" aria-label="newsletter"
+               style="background-image: url('./assets/images/newsletter-bg.jpg')">
+               <div class="container">
+                  <figure class="newsletter-banner">
+                     <img src="./assets/images/images3.jpg" width="355" height="356" loading="lazy"
+                        alt="newsletter banner" class="w-100">
+                  </figure>
+                  <div class="newsletter-content">
+                     <p class="section-subtitle has-before">Follow What We Provide</p>
+                     <h2 class="h2 section-title">Learn more about recent AI developments and our solutions</h2>
+                     <form action="" class="newsletter-form">
+                        <input type="email" name="email_address" placeholder="Enter your mail" required class="email-field">
+                        <button type="submit" class="btn btn-secondary has-before has-after">
+                           <span class="span">Subscribe</span>
+                           <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </button>
+                     </form>
+                  </div>
+               </div>
+            </section>
+         </article>
+      </main>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-top section">
+               <div class="footer-brand">
+                  <p class="footer-list-title">About PB Tech</p>
+                  <p class="footer-text">
+                     Breaking boundaries to bring AI solutions at your fingertips
+                  </p>
+                  <ul class="social-list">
+                     <li>
+                        <a href="https://youtube.com" class="social-link">
+                           <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://twitter.com" class="social-link">
+                           <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://facebook.com" class="social-link">
+                           <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <ul class="footer-list">
+                  <li>
+                     <p class="footer-list-title">Quick Access</p>
+                  </li>
+                  <li>
+                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSwbFtVRL3wmOhNTYcbnqYQ2jUvgnC8sU8Dl-FNaTgiB5XJQ/viewform" class="footer-link">Contact Us</a>
+                  </li>
+                  <li>
+                     <a href="#feature" class="footer-link">What Sets Us Apart</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-bottom">
+               <p class="copyright">
+                  &copy; 2025 PB Tech. All Rights Reserved. Created By Prasanjeit Biswas.
+               </p>
+            </div>
+         </div>
+      </footer>
+      <a href="#top" class="back-top-btn has-after active" aria-label="back to top" data-back-top-btn>
+         <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+      <script src="./assets/js/script.js" defer></script>
+      <!-- 
+         - ionicon link
+         -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- AI Email Assistance Modal -->
+      <div class="modal fade" id="aiEmailModal" tabindex="-1" aria-labelledby="aiEmailModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="aiEmailModalLabel">AI Email Assistance ✉️</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <p><strong>Smart. Fast. Human-like.</strong></p>
+                  <p>
+                     Our <span style="color: #007bff; font-weight: 500;">AI Email Assistant</span> empowers teams to respond faster with contextual, natural-language suggestions.
+                  </p>
+                  <ul>
+                     <li>✅ Automates repetitive replies</li>
+                     <li>✅ Suggests responses in real-time</li>
+                     <li>✅ Learns your brand tone</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- AI Code Development Modal -->
+      <div class="modal fade" id="aiCodeModal" tabindex="-1" aria-labelledby="aiCodeModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="aiCodeModalLabel">AI Code Development 💻</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <p><strong>Ship faster. Code smarter.</strong></p>
+                  <p>
+                     With <span style="color: #007bff; font-weight: 500;">AI Code Generation</span>, developers write less and build more. Automate boilerplate code, refactor functions, and spot bugs — all at once.
+                  </p>
+                  <ul>
+                     <li>✅ Autocompletes code intelligently</li>
+                     <li>✅ Accelerates development cycles</li>
+                     <li>✅ Supports multiple programming languages</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- AI Customer Support Modal -->
+      <div class="modal fade" id="aiSupportModal" tabindex="-1" aria-labelledby="aiSupportModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="aiSupportModalLabel">AI Customer Support 🤖</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <p><strong>Delight every customer.</strong></p>
+                  <p>
+                     AI-driven support tools provide 24/7 responses, empathetic tone, and knowledge base integration for unbeatable customer experiences.
+                  </p>
+                  <ul>
+                     <li>✅ Instant resolution suggestions</li>
+                     <li>✅ Omnichannel support capabilities</li>
+                     <li>✅ Trained on your company’s data</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- AI Service Notifications Modal -->
+      <div class="modal fade" id="aiNotifModal" tabindex="-1" aria-labelledby="aiNotifModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="aiNotifModalLabel">AI Service Notifications 🔔</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <p><strong>Never miss a beat.</strong></p>
+                  <p>
+                     AI notifications analyze user behavior and send hyper-targeted alerts or updates across platforms.
+                  </p>
+                  <ul>
+                     <li>✅ Personalized content delivery</li>
+                     <li>✅ Timed alerts based on usage</li>
+                     <li>✅ Smart queue management</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- AI Document Insights Modal -->
+      <div class="modal fade" id="aiDocModal" tabindex="-1" aria-labelledby="aiDocModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="aiDocModalLabel">AI Document Insights 📄</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <p><strong>Understand your data instantly.</strong></p>
+                  <p>
+                     Extract key takeaways, summarize pages, and detect intent with document analysis powered by natural language models.
+                  </p>
+                  <ul>
+                     <li>✅ Highlights key insights</li>
+                     <li>✅ Summarizes large documents</li>
+                     <li>✅ Integrates with cloud storage</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- AI Performance Reports Modal -->
+      <div class="modal fade" id="aiReportsModal" tabindex="-1" aria-labelledby="aiReportsModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="aiReportsModalLabel">Analytic Performance Reports 📊</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <p><strong>Insights that drive action.</strong></p>
+                  <p>
+                     Get rich, interactive analytics from your AI tools. Understand what’s working, where to improve, and what to automate next.
+                  </p>
+                  <ul>
+                     <li>✅ Trend & usage tracking</li>
+                     <li>✅ Custom KPI dashboards</li>
+                     <li>✅ Export to CSV, PDF, or APIs</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- AI Security Analysis Modal -->
+      <div class="modal fade" id="aiSecurityModal" tabindex="-1" aria-labelledby="aiSecurityModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="aiSecurityModalLabel">AI Security Analysis 🔐</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <p><strong>Detect. Prevent. Protect.</strong></p>
+                  <p>
+                     Stay ahead of threats with real-time vulnerability scans, anomaly detection, and predictive alerts — all AI-powered.
+                  </p>
+                  <ul>
+                     <li>✅ Predictive breach detection</li>
+                     <li>✅ Role-based access reports</li>
+                     <li>✅ Integration with SIEM tools</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
